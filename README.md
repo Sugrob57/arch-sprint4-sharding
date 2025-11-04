@@ -1,35 +1,49 @@
-# pymongo-api
+# Исходный проект
 
-## Как запустить
+[as-is/README](/as-is/README.md)
 
-Запускаем mongodb и приложение
+# Задание 1. Планирование
 
-```shell
-docker compose up -d
-```
+[task6.drawio](/docs/task6.drawio)
 
-Заполняем mongodb данными
+![task1.drawio screen](/docs/task1-shard-repl-cache.png)
 
-```shell
-./scripts/mongo-init.sh
-```
+# Задание 2. Шардирование
 
-## Как проверить
+[mongo-sharding/README](/mongo-sharding/README.md)
 
-### Если вы запускаете проект на локальной машине
+# Задание 3. Репликация
 
-Откройте в браузере http://localhost:8080
+[mongo-sharding-repl/README](/mongo-sharding-repl/README.md)
 
-### Если вы запускаете проект на предоставленной виртуальной машине
+# Задание 4. Кеширование
 
-Узнать белый ip виртуальной машины
+[/sharding-repl-cache/README](/sharding-repl-cache/README.md)
 
-```shell
-curl --silent http://ifconfig.me
-```
+# Задание 5. Service Discovery и балансировка с API Gateway
 
-Откройте в браузере http://<ip виртуальной машины>:8080
+[task6.drawio](/docs/task6.drawio)
 
-## Доступные эндпоинты
+![task5.drawio screen](/docs/task5-discovery-gateway.png)
 
-Список доступных эндпоинтов, swagger http://<ip виртуальной машины>:8080/docs
+# Задание 6. CDN
+
+[task6.drawio](/docs/task6.drawio)
+
+![task5.drawio screen](/docs/task6-cdn.png)
+
+# Задание 7. Проектирование схем коллекций для шардирования данных
+
+[task7/README](/task7/README.md)
+
+# Задание 8. Выявление и устранение «горячих» шардов
+
+[task8/README](/task8/README.md)
+
+# Задание 9. Настройка чтения с реплик и консистентность
+
+[task9/README](/task9/README.md)
+
+# Задание 10. Миграция на Cassandra: модель данных, стратегии репликации и шардирования
+
+[task10/README](/task10/README.md)
